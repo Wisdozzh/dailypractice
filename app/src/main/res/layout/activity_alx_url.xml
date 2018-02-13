@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhaozhihui.dailypractice.alxurl.AlxUrlActivity">
+
+    <com.example.zhaozhihui.dailypractice.alxurl.AlxUrlTextView
+        android:id="@+id/tv_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.zhaozhihui.dailypractice.alxurl.AlxUrlTextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/tv_url2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
