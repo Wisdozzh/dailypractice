@@ -9,9 +9,12 @@ import com.example.zhaozhihui.dailypractice.alxurl.AlxUrlActivity;
 import com.example.zhaozhihui.dailypractice.updateversion.UpdateVersionActivity;
 import com.example.zhaozhihui.dailypractice.view.constraint.ConstraintActivity;
 import com.example.zhaozhihui.dailypractice.view.custom.DrawViewActivity;
+import com.example.zhaozhihui.dailypractice.view.custom.SwitchButtonActivity;
 import com.example.zhaozhihui.dailypractice.view.offical.FrameLayoutActivity;
 import com.example.zhaozhihui.dailypractice.view.offical.GridLayoutActivity;
+import com.example.zhaozhihui.dailypractice.view.offical.OfficalViewActivity;
 import com.example.zhaozhihui.dailypractice.view.offical.TableLayoutActivity;
+import com.example.zhaozhihui.dailypractice.view.offical.TextViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onDrawView(View view) {
         DrawViewActivity.start(this);
+    }
+    public void onSwitchButton(View view) {
+        SwitchButtonActivity.start(this);
     }
 
     public void onOpenBase(View view) {
@@ -51,5 +57,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void onGridLayout(View view) {
         GridLayoutActivity.start(this);
+    }
+
+    public void onTextView(View view) {
+        TextViewActivity.start(this);
+    }
+
+    public void onOfficalView(View view) {
+        OfficalViewActivity.start(this);
     }
 }
