@@ -18,6 +18,14 @@
             android:layout_height="30dp"
             android:background="@drawable/common_bg_selector"
             android:gravity="center"
+            android:onClick="onHenCoderPractice"
+            android:text="基于Hencoder的Demo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/common_bg_selector"
+            android:gravity="center"
             android:onClick="onAlxUrl"
             android:text="AlxUrl_解析html中a标签href" />
 
@@ -36,6 +44,14 @@
             android:gravity="center"
             android:onClick="onSwitchButton"
             android:text="自定义SwitchButton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/common_bg_selector"
+            android:gravity="center"
+            android:onClick="onPointView"
+            android:text="自定义PointView" />
 
         <TextView
             android:layout_width="match_parent"
@@ -100,6 +116,14 @@
             android:gravity="center"
             android:onClick="onOfficalView"
             android:text="官方api-Offical_View" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/common_bg_selector"
+            android:gravity="center"
+            android:onClick="onConfigratationOrientation"
+            android:text="横竖屏切换" />
 
     </LinearLayout>
 

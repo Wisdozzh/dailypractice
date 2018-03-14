@@ -35,7 +35,10 @@
         <activity android:name=".view.offical.TextViewActivity" />
         <activity android:name=".view.offical.OfficalViewActivity" />
         <activity android:name=".view.custom.SwitchButtonActivity" />
-        <activity android:name=".view.offical.ui.ToggleButtonActivity"></activity>
+        <activity android:name=".view.offical.ui.ToggleButtonActivity" />
+        <activity android:name=".configration.ConfigrationOrientationActivity" />
+        <activity android:name=".view.custom.PointViewActivity" />
+        <activity android:name=".hencoder.customerview.OnDrawPracticeActivity"></activity>
     </application>
 
 </manifest>

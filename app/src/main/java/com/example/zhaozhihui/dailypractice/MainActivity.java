@@ -6,9 +6,12 @@ import android.view.View;
 
 import com.example.zhaozhihui.BaseActivity;
 import com.example.zhaozhihui.dailypractice.alxurl.AlxUrlActivity;
+import com.example.zhaozhihui.dailypractice.configration.ConfigrationOrientationActivity;
+import com.example.zhaozhihui.dailypractice.hencoder.customerview.OnDrawPracticeActivity;
 import com.example.zhaozhihui.dailypractice.updateversion.UpdateVersionActivity;
 import com.example.zhaozhihui.dailypractice.view.constraint.ConstraintActivity;
 import com.example.zhaozhihui.dailypractice.view.custom.DrawViewActivity;
+import com.example.zhaozhihui.dailypractice.view.custom.PointViewActivity;
 import com.example.zhaozhihui.dailypractice.view.custom.SwitchButtonActivity;
 import com.example.zhaozhihui.dailypractice.view.offical.FrameLayoutActivity;
 import com.example.zhaozhihui.dailypractice.view.offical.GridLayoutActivity;
@@ -24,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void onHenCoderPractice(View view) {
+        OnDrawPracticeActivity.start(this);
+    }
+
     public void onAlxUrl(View view) {
         AlxUrlActivity.start(this);
     }
@@ -31,8 +38,13 @@ public class MainActivity extends AppCompatActivity {
     public void onDrawView(View view) {
         DrawViewActivity.start(this);
     }
+
     public void onSwitchButton(View view) {
         SwitchButtonActivity.start(this);
+    }
+
+    public void onPointView(View view) {
+        PointViewActivity.start(this);
     }
 
     public void onOpenBase(View view) {
@@ -65,5 +77,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onOfficalView(View view) {
         OfficalViewActivity.start(this);
+    }
+
+    public void onConfigratationOrientation(View view) {
+        ConfigrationOrientationActivity.start(this);
     }
 }
