@@ -38,7 +38,9 @@
         <activity android:name=".view.offical.ui.ToggleButtonActivity" />
         <activity android:name=".configration.ConfigrationOrientationActivity" />
         <activity android:name=".view.custom.PointViewActivity" />
-        <activity android:name=".hencoder.customerview.OnDrawPracticeActivity"></activity>
+        <activity android:name=".hencoder.customerview.OnDrawPracticeActivity" />
+        <activity android:name=".hencoder.customerview.view1.CustomeView1Activity" />
+        <activity android:name=".hencoder.customerview.view1.PracticeDraw1Activity"></activity>
     </application>
 
 </manifest>

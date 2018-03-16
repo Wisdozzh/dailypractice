@@ -8,6 +8,7 @@ import com.example.zhaozhihui.BaseActivity;
 import com.example.zhaozhihui.dailypractice.alxurl.AlxUrlActivity;
 import com.example.zhaozhihui.dailypractice.configration.ConfigrationOrientationActivity;
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.OnDrawPracticeActivity;
+import com.example.zhaozhihui.dailypractice.hencoder.customerview.view1.CustomeView1Activity;
 import com.example.zhaozhihui.dailypractice.updateversion.UpdateVersionActivity;
 import com.example.zhaozhihui.dailypractice.view.constraint.ConstraintActivity;
 import com.example.zhaozhihui.dailypractice.view.custom.DrawViewActivity;
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onHenCoderPractice(View view) {
-        OnDrawPracticeActivity.start(this);
+        CustomeView1Activity.start(this);
     }
 
     public void onAlxUrl(View view) {

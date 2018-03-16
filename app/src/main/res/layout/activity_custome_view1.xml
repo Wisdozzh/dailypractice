@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhaozhihui.dailypractice.hencoder.customerview.view1.CustomeView1Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/common_bg_selector"
+        android:gravity="center"
+        android:onClick="onBlogPractice"
+        android:text="基于Blog的练习" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/common_bg_selector"
+        android:gravity="center"
+        android:onClick="onPracticeDemo"
+        android:text="基于Hencoder自定义View的Demo" />
+
+</LinearLayout>
