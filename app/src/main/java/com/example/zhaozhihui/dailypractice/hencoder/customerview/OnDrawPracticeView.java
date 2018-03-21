@@ -1,13 +1,24 @@
 package com.example.zhaozhihui.dailypractice.hencoder.customerview;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.BitmapShader;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.ComposeShader;
+import android.graphics.LinearGradient;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.graphics.PorterDuff;
+import android.graphics.RadialGradient;
+import android.graphics.Shader;
+import android.graphics.SweepGradient;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.example.zhaozhihui.dailypractice.R;
 
 /**
  * Created by zhaozhihui on 2018/3/2.
@@ -69,8 +80,8 @@ public class OnDrawPracticeView extends View {
 //        path.lineTo(150,150);
 //        canvas.drawPath(path,paint);
 
-        Path path = new Path();
-        paint.setStyle(Paint.Style.FILL);
+//        Path path = new Path();
+////        paint.setStyle(Paint.Style.FILL);
 //        path.addCircle(200,200,150, Path.Direction.CW);
 //        path.addCircle(400,200,150, Path.Direction.CCW);
 //        path.setFillType(Path.FillType.WINDING);
@@ -134,7 +145,46 @@ public class OnDrawPracticeView extends View {
 
 //        canvas.drawBitmapMesh();
 
-        paint.setTextSize(84);
-        canvas.drawText("Hello Wisdozzh", 200, 100, paint);
+//        paint.setTextSize(84);
+//        canvas.drawText("Hello Wisdozzh", 200, 100, paint);
+
+//        Shader shader = new LinearGradient(100, 100, 500, 500, Color.parseColor("#e91e63"), Color.parseColor("#2196f3"), Shader.TileMode.CLAMP);
+//        paint.setShader(shader);
+//        paint.setStyle(Paint.Style.FILL);
+////        canvas.drawCircle(300,300,200,paint);
+//        canvas.drawRect(100,100,1000,1000,paint);
+
+//        Shader shader = new RadialGradient(300, 300, 200, Color.parseColor("#e91e63"), Color.parseColor("#2196f3"), Shader.TileMode.REPEAT);
+//        paint.setStyle(Paint.Style.FILL);
+//        paint.setShader(shader);
+////        canvas.drawCircle(300,300,200,paint);
+//        canvas.drawRect(100,100,1000,1000,paint);
+
+//        Shader shader = new SweepGradient(300, 300, Color.parseColor("#e91e63"), Color.parseColor("#2196f3"));
+//        paint.setStyle(Paint.Style.FILL);
+//        paint.setShader(shader);
+//
+//        canvas.drawCircle(300,300,200,paint);
+
+        // 第一个 Shader：头像的 Bitmap
+//        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.batman);
+//        Shader shader = new BitmapShader(bitmap, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
+////        paint.setShader(shader);
+//
+////        canvas.drawCircle(200, 200, 200, paint);
+////        canvas.drawRect(0,0,1400,1400,paint);
+//        // 第二个 Shader：从上到下的线性渐变（由透明到黑色）
+//        Bitmap bitmap1 = BitmapFactory.decodeResource(getResources(), R.drawable.batman_cover);
+//        Shader shader1 = new BitmapShader(bitmap1, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
+////        canvas.drawRect(0,0,400,400,paint);
+//
+//        Shader composeShader = new ComposeShader(shader, shader1, PorterDuff.Mode.SRC_OVER);
+//        paint.setShader(composeShader);
+//        canvas.drawCircle(200,200,200,paint);
+
+//        paint.setStyle(Paint.Style.FILL);
+//        Path dashPath = new Path();
+//        path.lineTo(5,5);
+//        path.rLineTo(5,-5);
     }
 }

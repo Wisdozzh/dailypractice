@@ -1,4 +1,4 @@
-package com.example.zhaozhihui.dailypractice.hencoder.customerview.view1;
+package com.example.zhaozhihui.dailypractice.hencoder.customerview;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.zhaozhihui.dailypractice.R;
-import com.example.zhaozhihui.dailypractice.hencoder.customerview.OnDrawPracticeActivity;
+import com.example.zhaozhihui.dailypractice.hencoder.customerview.chengdazhi.StylerTestActivity;
+import com.example.zhaozhihui.dailypractice.hencoder.customerview.view1.PracticeDraw1Activity;
+import com.example.zhaozhihui.dailypractice.hencoder.customerview.view2.PracticeDraw2Activity;
 
 public class CustomeView1Activity extends AppCompatActivity {
 
@@ -25,8 +27,15 @@ public class CustomeView1Activity extends AppCompatActivity {
     public void onBlogPractice(View view) {
         OnDrawPracticeActivity.start(this);
     }
+    public void onStylerTest(View view) {
+        StylerTestActivity.start(this);
+    }
 
-    public void onPracticeDemo(View view) {
+    public void onPracticeDemo1(View view) {
         PracticeDraw1Activity.start(this);
+    }
+
+    public void onPracticeDemo2(View view) {
+        PracticeDraw2Activity.start(this);
     }
 }

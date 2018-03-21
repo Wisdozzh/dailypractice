@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.zhaozhihui.dailypractice.hencoder.customerview.view1.CustomeView1Activity">
+    tools:context="com.example.zhaozhihui.dailypractice.hencoder.customerview.CustomeView1Activity">
 
     <TextView
         android:layout_width="match_parent"
@@ -19,7 +19,22 @@
         android:layout_height="30dp"
         android:background="@drawable/common_bg_selector"
         android:gravity="center"
-        android:onClick="onPracticeDemo"
-        android:text="基于Hencoder自定义View的Demo" />
+        android:onClick="onStylerTest"
+        android:text="程大治的ColorMatrixColorFilterDemo-StylerTestActivity" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/common_bg_selector"
+        android:gravity="center"
+        android:onClick="onPracticeDemo1"
+        android:text="HenCoder 绘制 1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/common_bg_selector"
+        android:gravity="center"
+        android:onClick="onPracticeDemo2"
+        android:text="HenCoder 绘制 2" />
 
 </LinearLayout>
