@@ -10,6 +10,7 @@ import com.example.zhaozhihui.dailypractice.R;
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.chengdazhi.StylerTestActivity;
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.view1.PracticeDraw1Activity;
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.view2.PracticeDraw2Activity;
+import com.example.zhaozhihui.dailypractice.hencoder.customerview.view3.PracticeDraw3Activity;
 
 public class CustomeView1Activity extends AppCompatActivity {
 
@@ -27,6 +28,7 @@ public class CustomeView1Activity extends AppCompatActivity {
     public void onBlogPractice(View view) {
         OnDrawPracticeActivity.start(this);
     }
+
     public void onStylerTest(View view) {
         StylerTestActivity.start(this);
     }
@@ -37,5 +39,9 @@ public class CustomeView1Activity extends AppCompatActivity {
 
     public void onPracticeDemo2(View view) {
         PracticeDraw2Activity.start(this);
+    }
+
+    public void onPracticeDemo3(View view) {
+        PracticeDraw3Activity.start(this);
     }
 }

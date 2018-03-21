@@ -28,13 +28,22 @@
         android:background="@drawable/common_bg_selector"
         android:gravity="center"
         android:onClick="onPracticeDemo1"
-        android:text="HenCoder 绘制 1" />
+        android:text="HenCoder 自定义View1-1 绘制基础" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:background="@drawable/common_bg_selector"
         android:gravity="center"
         android:onClick="onPracticeDemo2"
-        android:text="HenCoder 绘制 2" />
+        android:text="HenCoder 自定义View 1-2 Paint详解" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/common_bg_selector"
+        android:gravity="center"
+        android:onClick="onPracticeDemo3"
+        android:text="HenCoder 自定义View 1-3 drawText()文字的绘制" />
 
 </LinearLayout>
