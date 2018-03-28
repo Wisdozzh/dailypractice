@@ -46,4 +46,14 @@
         android:onClick="onPracticeDemo3"
         android:text="HenCoder 自定义View 1-3 drawText()文字的绘制" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_bg_selector"
+        android:gravity="center"
+        android:onClick="onPracticeDemo4"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="HenCoder 自定义 View 1-4 Canvas 对绘制的辅助 clipXXX() 和 Matrix" />
+
 </LinearLayout>
