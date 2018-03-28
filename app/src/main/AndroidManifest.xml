@@ -48,7 +48,8 @@
             android:name=".hencoder.customerview.chengdazhi.StylerTestActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity android:name=".hencoder.customerview.view3.PracticeDraw3Activity" />
-        <activity android:name=".hencoder.customerview.view4.PracticeDraw4Activity"></activity>
+        <activity android:name=".hencoder.customerview.view4.PracticeDraw4Activity" />
+        <activity android:name=".hencoder.customerview.view5.PracticeDraw5Activity"></activity>
     </application>
 
 </manifest>
