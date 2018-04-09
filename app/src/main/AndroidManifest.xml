@@ -49,7 +49,9 @@
             android:windowSoftInputMode="stateHidden" />
         <activity android:name=".hencoder.customerview.view3.PracticeDraw3Activity" />
         <activity android:name=".hencoder.customerview.view4.PracticeDraw4Activity" />
-        <activity android:name=".hencoder.customerview.view5.PracticeDraw5Activity"></activity>
+        <activity android:name=".hencoder.customerview.view5.PracticeDraw5Activity" />
+        <activity android:name=".hencoder.customerview.view6.PracticeDraw6Activity" />
+        <activity android:name=".hencoder.customerview.view7.PracticeDraw7Activity"></activity>
     </application>
 
 </manifest>
