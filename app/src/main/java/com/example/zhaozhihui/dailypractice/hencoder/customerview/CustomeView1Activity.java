@@ -14,6 +14,7 @@ import com.example.zhaozhihui.dailypractice.hencoder.customerview.view3.Practice
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.view4.PracticeDraw4Activity;
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.view5.PracticeDraw5Activity;
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.view6.PracticeDraw6Activity;
+import com.example.zhaozhihui.dailypractice.hencoder.customerview.view7.PracticeDraw7Activity;
 
 public class CustomeView1Activity extends AppCompatActivity {
 
@@ -58,5 +59,9 @@ public class CustomeView1Activity extends AppCompatActivity {
 
     public void onPracticeDemo6(View view) {
         PracticeDraw6Activity.start(this);
+    }
+
+    public void onPracticeDemo7(View view) {
+        PracticeDraw7Activity.start(this);
     }
 }

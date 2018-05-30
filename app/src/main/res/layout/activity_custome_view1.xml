@@ -76,4 +76,14 @@
         android:paddingTop="10dp"
         android:text="HenCoder 自定义 View 1-6：属性动画 Property Animation（上手篇）" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_bg_selector"
+        android:gravity="center"
+        android:onClick="onPracticeDemo7"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="HenCoder Android 自定义 View 1-7：属性动画 Property Animation（进阶篇）" />
+
 </LinearLayout>

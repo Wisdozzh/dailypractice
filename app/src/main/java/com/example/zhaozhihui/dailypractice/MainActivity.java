@@ -6,6 +6,7 @@ import android.view.View;
 
 import com.example.zhaozhihui.BaseActivity;
 import com.example.zhaozhihui.dailypractice.alxurl.AlxUrlActivity;
+import com.example.zhaozhihui.dailypractice.camera.CameraActivity;
 import com.example.zhaozhihui.dailypractice.configration.ConfigrationOrientationActivity;
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.CustomeView1Activity;
 import com.example.zhaozhihui.dailypractice.updateversion.UpdateVersionActivity;
@@ -81,5 +82,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onConfigratationOrientation(View view) {
         ConfigrationOrientationActivity.start(this);
+    }
+
+    public void onCamera(View view) {
+        CameraActivity.start(this);
     }
 }

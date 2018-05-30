@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -51,6 +52,11 @@
         <activity android:name=".hencoder.customerview.view4.PracticeDraw4Activity" />
         <activity android:name=".hencoder.customerview.view5.PracticeDraw5Activity" />
         <activity android:name=".hencoder.customerview.view6.PracticeDraw6Activity" />
+        <activity android:name=".camera.CameraActivity" />
+        <activity android:name=".camera.CameraSurfaceViewActivity" />
+        <activity
+            android:name=".camera.CameraTextureViewActivity"
+            android:hardwareAccelerated="true" />
         <activity android:name=".hencoder.customerview.view7.PracticeDraw7Activity"></activity>
     </application>
 
