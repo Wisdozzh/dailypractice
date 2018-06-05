@@ -9,6 +9,7 @@ import com.example.zhaozhihui.dailypractice.alxurl.AlxUrlActivity;
 import com.example.zhaozhihui.dailypractice.camera.CameraActivity;
 import com.example.zhaozhihui.dailypractice.configration.ConfigrationOrientationActivity;
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.CustomeView1Activity;
+import com.example.zhaozhihui.dailypractice.highimitate.HighImitateViewActivity;
 import com.example.zhaozhihui.dailypractice.updateversion.UpdateVersionActivity;
 import com.example.zhaozhihui.dailypractice.view.constraint.ConstraintActivity;
 import com.example.zhaozhihui.dailypractice.view.custom.DrawViewActivity;
@@ -82,6 +83,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void onConfigratationOrientation(View view) {
         ConfigrationOrientationActivity.start(this);
+    }
+
+    public void onHighImitateView(View view) {
+        HighImitateViewActivity.start(this);
     }
 
     public void onCamera(View view) {

@@ -20,7 +20,11 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ * 作者：ZZH
+ * 时间：2018/6/4 13:38
+ * 说明：版本升级activity
+ */
 public class UpdateVersionActivity extends AppCompatActivity {
 
     private String mUpdateUrl = "https://raw.githubusercontent.com/WVector/AppUpdateDemo/master/json/json.txt";

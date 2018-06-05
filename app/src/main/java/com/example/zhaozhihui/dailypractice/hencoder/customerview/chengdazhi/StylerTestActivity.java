@@ -23,7 +23,11 @@ import com.example.zhaozhihui.dailypractice.R;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * 作者：ZZH
+ * 时间：2018/6/4 13:37
+ * 说明：图片不同风格样式的设置
+ */
 public class StylerTestActivity extends AppCompatActivity {
 
     private ImageView image;

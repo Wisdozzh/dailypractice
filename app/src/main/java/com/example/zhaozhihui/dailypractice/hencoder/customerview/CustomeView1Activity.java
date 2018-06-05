@@ -15,7 +15,11 @@ import com.example.zhaozhihui.dailypractice.hencoder.customerview.view4.Practice
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.view5.PracticeDraw5Activity;
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.view6.PracticeDraw6Activity;
 import com.example.zhaozhihui.dailypractice.hencoder.customerview.view7.PracticeDraw7Activity;
-
+/**
+ * 作者：ZZH
+ * 时间：2018/6/4 13:35
+ * 说明：基于HenCoder的blog的一些练习
+ */
 public class CustomeView1Activity extends AppCompatActivity {
 
     public static void start(Context context) {

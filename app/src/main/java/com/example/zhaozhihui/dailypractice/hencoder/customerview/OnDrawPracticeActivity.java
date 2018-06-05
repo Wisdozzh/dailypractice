@@ -6,7 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.zhaozhihui.dailypractice.R;
-
+/**
+ * 作者：ZZH
+ * 时间：2018/6/4 13:35
+ * 说明：
+ */
 public class OnDrawPracticeActivity extends AppCompatActivity {
 
     public static void start(Context context) {

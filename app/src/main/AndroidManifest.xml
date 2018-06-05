@@ -57,7 +57,9 @@
         <activity
             android:name=".camera.CameraTextureViewActivity"
             android:hardwareAccelerated="true" />
-        <activity android:name=".hencoder.customerview.view7.PracticeDraw7Activity"></activity>
+        <activity android:name=".hencoder.customerview.view7.PracticeDraw7Activity" />
+        <activity android:name=".highimitate.HighImitateViewActivity" />
+        <activity android:name=".highimitate.thumpup.ThumpUpActivity"></activity>
     </application>
 
 </manifest>
